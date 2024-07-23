@@ -23,7 +23,7 @@ function App() {
             className="px-6 py-3 bg-black text-white uppercase font-bold rounded-md disabled:opacity-10"
             disabled={!canRestartApp()}
             onClick={() => dispatch({type: 'restart-app'})}>
-            Reinciar app
+              Reinciar app
             </button>
         </div>
       </header>
@@ -45,10 +45,7 @@ function App() {
 
       <section className="mx-auto p-10">
         <div className=" mx-auto max-w-3xl">
-          <ActivityList
-            activities={state.activities}
-            dispatch={dispatch}
-          />
+          <ActivityList/>
         </div>
       </section>
     </>
