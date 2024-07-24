@@ -30,10 +30,7 @@ function App() {
 
       <section className="bg-green-400">
         <div className="max-w-3xl mx-auto py-20">
-          <Form
-            dispatch={dispatch}
-            state={state}
-          />
+          <Form/>
         </div>
       </section>
 
